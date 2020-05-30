@@ -1,5 +1,5 @@
 import hashlib
-f = open('Wordlist.txt', 'r+')
+f = open('Wordlist', 'r+')
 liste = f.readlines()
 hash=input('type hash : ')
 for i in range(0,len(liste) + 1):
